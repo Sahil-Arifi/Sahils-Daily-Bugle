@@ -1,0 +1,20 @@
+#root, html, body {
+    /* 100vh means it will take full height of screen */
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    background-color: whitesmoke;
+}
+
+* {
+    /* box-sizing: border-box means when you take the height and width of the element it also takes  */
+    /* into consederation the padding and the margin */
+    box-sizing: border-box;
+}
+
+html {
+    /* scrolling is smoother */
+    scroll-behavior: smooth;
+}
